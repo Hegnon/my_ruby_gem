@@ -7,10 +7,12 @@ module CalculateAge
   class Error < StandardError; end
   
 
-  
-  def self.calculate_idade(data_nascimento_str)    
+  puts "Digite a data de nascomento - formato dd/mm/aaaa"
+  def self.calculate_idade(data_nascimento_str)
+    data_nascimento_str = gets.chomp
     dia, mes, ano = data_nascimento_str.split('/').map(&:to_i) #Entender melhor 
     data_nascimento = Date.new(ano, mes, dia)
+
     data_atual = Date.today
 
     idade_anos = data_atual.year - data_nascimento.year
@@ -33,4 +35,3 @@ module CalculateAge
   end
 end
 
-CalculateAge.calculate_idade('01/01/1990')

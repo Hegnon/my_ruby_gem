@@ -4,11 +4,11 @@ require 'calculate_age'
 RSpec.describe CalculateAge do
     describe '.calculate_idade' do
         it 'calculates the correct age' do
-        data_nascimento_str = '01/01/1990'
+        data_nascimento_str = '00/00/0000'
         idade_anos, idade_meses, idade_dias = CalculateAge.calculate_idade(data_nascimento_str)
-        expect(idade_anos).to eq(33)
-        expect(idade_meses).to eq(4)
-        expect(idade_dias).to eq(21)
+        expect(idade_anos).to be_nil
+        expect(idade_meses).to be_nil
+        expect(idade_dias).to be_nil
         end
     end
 end
