@@ -1,7 +1,7 @@
-require 'bublle_sort'
+require"bublle_sort"
 
 
-describe 'bublle_sort' do
+describe BublleSort do
     it 'ordena corretamente o array' do
     arr = [20,10,40,80,100,5,1]
     sorted_arr = [1, 5, 10, 20, 40, 80, 100]
