@@ -1,17 +1,21 @@
 # frozen_string_literal: true
 
 require_relative "lib/binary_search/version"
+require_relative "lib/calculate_age/version"
+require_relative "lib/bubble_sort/version"
 
 Gem::Specification.new do |spec|
   spec.name = "my_gem"
   spec.version = BinarySearch::VERSION
+  spec.version = CalculateAge::VERSION
+  spec.version = BubbleSort::VERSION
   spec.authors = ["Hegnon"]
   spec.email = ["hegnondutra@gmail.com"]
 
   spec.summary = "A simple binary search implementation."
   spec.description = "This gem provides a basic implementation of the binary search algorithm in Ruby."
   spec.homepage = "https://example.com"
-  spec.required_ruby_version = ">= 2.7.0"
+  spec.required_ruby_version = ">= 3.1.3"
 
   spec.metadata["allowed_push_host"] = "Set to your gem server 'https://example.com"
 

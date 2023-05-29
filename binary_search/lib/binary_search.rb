@@ -1,6 +1,6 @@
 # frozen_string_literal: true
 
-require_relative "binary_search/version"
+require_relative "bubble_sort/version"
 
 module BinarySearch
   class Error < StandardError; end
