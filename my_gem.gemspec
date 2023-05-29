@@ -3,12 +3,15 @@
 require_relative "lib/binary_search/version"
 require_relative "lib/calculate_age/version"
 require_relative "lib/bubble_sort/version"
+require_relative "lib/bubble_sort/version"
+require_relative "lib/reversal_algorithm/version"
 
 Gem::Specification.new do |spec|
   spec.name = "my_gem"
   spec.version = BinarySearch::VERSION
   spec.version = CalculateAge::VERSION
   spec.version = BubbleSort::VERSION
+  spec.version = ReversalAlgorithm::VERSION
   spec.authors = ["Hegnon"]
   spec.email = ["hegnondutra@gmail.com"]
 
