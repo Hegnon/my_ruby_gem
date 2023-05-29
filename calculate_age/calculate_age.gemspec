@@ -3,7 +3,7 @@
 require_relative "lib/calculate_age/version"
 
 Gem::Specification.new do |spec|
-  spec.add_development_dependency "rspec", "~> 3.12" [spec.add_development_dependency 'rspec', '~> 3.12']
+  #spec.add_development_dependency "rspec", "~> 3.12" [spec.add_development_dependency 'rspec', '~> 3.12']
   spec.name = "calculate_age"
   spec.version = CalculateAge::VERSION
   spec.authors = ["Hegnon"]
