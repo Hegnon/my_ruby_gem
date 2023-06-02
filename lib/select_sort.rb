@@ -3,7 +3,7 @@ require_relative "select_sort/version"
 module SelectSort
   class Error < StandardError; end
 
-  def select (arr)
+  def selection_sort(arr)
     n = arr.length
   
     for i in 0..(n - 2)
@@ -22,9 +22,9 @@ module SelectSort
   
     return arr
   end
+end
   
-  # Exemplo de uso:
-  array = [64, 25, 12, 22, 11]
-  sorted_array = select (array)
-  puts sorted_array.inspect
+array = [64, 25, 12, 22, 11]
+sorted_array = selection_sort(array)
+  
   
