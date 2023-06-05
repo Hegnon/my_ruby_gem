@@ -1,6 +1,8 @@
 require 'select_sort'
 
 RSpec.describe SelectSort do 
+  include SelectSort
+  
     describe 'selection_sort' do      
       it 'ordena corretamente o array' do
         array = [64, 25, 12, 22, 11]
