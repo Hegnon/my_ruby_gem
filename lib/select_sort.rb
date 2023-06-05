@@ -25,6 +25,4 @@ module SelectSort
 end
   
 array = [64, 25, 12, 22, 11]
-sorted_array = selection_sort(array)
-  
-  
+
