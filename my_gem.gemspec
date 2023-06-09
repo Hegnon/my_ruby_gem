@@ -6,6 +6,7 @@ require_relative "lib/bubble_sort/version"
 require_relative "lib/bubble_sort/version"
 require_relative "lib/reversal_algorithm/version"
 require_relative "lib/select_sort/version"
+require_relative "lib/jump_search/version"
 
 Gem::Specification.new do |spec|
   spec.name = "my_gem"
@@ -14,6 +15,7 @@ Gem::Specification.new do |spec|
   spec.version = BubbleSort::VERSION
   spec.version = ReversalAlgorithm::VERSION
   spec.version = SelectSort::VERSION
+  spec.version = JumpSearch::VERSION
   spec.authors = ["Hegnon"]
   spec.email = ["hegnondutra@gmail.com"]
 
