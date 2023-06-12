@@ -25,3 +25,7 @@ module ReversalAlgorithm
     return -1
 end
 
+array = [1, 3, 5, 7, 9, 11, 13, 15, 17, 19]
+alvo = 15
+
+result = jump(array, alvo)
